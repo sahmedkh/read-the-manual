@@ -1,0 +1,16 @@
+from pydantic import BaseModel
+
+
+class GetManualsResponse(BaseModel): ...
+
+
+class GetSearchManualsReponse(BaseModel): ...
+
+
+class GetManualResponse(BaseModel): ...
+
+
+class PostManualResponse(BaseModel): ...
+
+
+class PostManualInput(BaseModel): ...

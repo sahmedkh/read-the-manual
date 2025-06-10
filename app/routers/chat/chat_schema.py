@@ -1,0 +1,16 @@
+from pydantic import BaseModel
+
+
+class GetChatsResponse(BaseModel): ...
+
+
+class GetSearchChatsReponse(BaseModel): ...
+
+
+class GetChatResponse(BaseModel): ...
+
+
+class PostChatResponse(BaseModel): ...
+
+
+class PostChatInput(BaseModel): ...
