@@ -4,4 +4,13 @@ version = "0.1.0"
 description = "A Retrieval-Augmented Generation (RAG) system designed to answer user queries based on manuals that users upload. This system leverages large language models (LLMs) along with a retrieval mechanism to provide accurate and contextually relevant answers from the manual content."
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = []
+dependencies = [
+    "fastapi[standard]>=0.115.12",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.16.0",
+    "pytest>=8.4.0",
+    "ruff>=0.11.13",
+]
